@@ -1,8 +1,19 @@
 # TelegramBot
 An example of creating and deploying telegram bot using python.
 
-This is an example repository for article: https://medium.com/@krsh37/build-and-deploy-your-first-telegram-bot-using-python-part-1-dcfd83bd6718
+For the article published on Medium: https://medium.com/@krsh37/learn-how-to-deploy-into-heroku-3158a41b46fb
 
-For Deployment in Heroku: https://medium.com/@krsh37/learn-how-to-deploy-into-heroku-3158a41b46fb
+## Creating a virtual environment
 
-For deployment directory setup visit: https://github.com/krsh-37/TelegramBot/tree/Heroku
+A virtual environment is like a safe space where you can install your project dependencies without messing up the global modules.
+
+To create a virtual environment, open terminal and 'cd' into it.
+
+To create a virtual environment named bot,
+`python3 -m venv bot`
+
+To activate the virtual enviroment, type in `source bot/bin/activate`
+
+## Installing dependencies
+
+`pip3 install -r requirements.txt`
